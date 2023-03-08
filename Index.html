@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c1a122f13b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/d/d0/Heart_font_awesome.svg" type="image/x-icon">
+    <title>Porfolio</title>
+</head>
+<body>
+        <header aria-label="Site Header" class="shadow-sm">
+            <div class="mx-auto max-w-screen-xl p-4">
+            <div class="flex items-center justify-between gap-4 lg:gap-10">
+                <div class="flex lg:w-0 lg:flex-1">
+                <a href="#">
+                    
+                    <span class="sr-only">Logo</span>
+                    <img class="h-10" src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Heart_font_awesome.svg" alt="Heart Logo">
+                </a>
+                </div>
+        
+                <nav
+                aria-label="Site Nav"
+                class="hidden gap-8 text-sm font-medium md:flex"
+                >
+                <a class="text-gray-500" href="#about__me">About me</a>
+                <a class="text-gray-500" href="#skills">Skills</a>
+                <a class="text-gray-500" href="#projects">Projects</a>
+                <a class="text-gray-500" href="mailto:olivera_julieta@outlook.com">Contact</a>
+                </nav>
+        
+                <div class="lg:hidden">
+                <button class="rounded-lg bg-gray-100 p-2 text-gray-600" type="button">
+                    <span class="sr-only">Open menu</span>
+                    <svg
+                    aria-hidden="true"
+                    class="h-5 w-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewbox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M4 6h16M4 12h16M4 18h16"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                    />
+                    </svg>
+                </button>
+                </div>
+            </div>
+            </div>
+        </header>
+
+    <main>
+
+        <section id="about__me" class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
+                <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+                    <div class="mx-auto max-w-xl text-center sm:text-left">
+
+                        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+                            Hola! Soy Julieta Olivera.
+                        </h2>
+
+                            <p class="hidden text-gray-500 md:mt-4 md:block">
+                                Soy de CABA, tengo 21 años.
+                                Hice el curso de Full Stack Desarrollo Web (JavaScript/Node.JS).
+                                Me gusta ver series, peliculas, escuchar musica y leer.
+                                Me considero una persona organizada, paciente. Me gusta trabajar en equipo. 
+                                Siempre dispuesta a aprender y aprendo de mis errores.
+                            </p>
+                    </div>
+                </div>
+
+                
+            <img
+                alt="Julieta"
+                src="/img/20201110_225919.jpg"
+                class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]"
+            />
+        </div>
+
+
+        </section>
+
+        <div id="skills">
+            <h1 class="text-2xl text-center font-bold text-gray-900 md:text-3xl">Skills</h1>
+            <div class="flex flex-row"> 
+                <div class="basis-1/4">
+                    <a
+                        class="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
+                        href="#"
+                    >
+                    <div class="pt-4 text-gray-500">
+                            <div
+                            class="h-8 w-8 sm:h-10 sm:w-10">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+                            </div>
+
+                            <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                            HTML 
+                            </h3>
+                    </div>
+
+                    <span
+                        class="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                    >
+                        4.5
+                    </span>
+                    </a>
+                </div>
+            <div class="basis-1/4">
+                <a
+                    class="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
+                    href="#"
+                    >
+                    <div class="pt-4 text-gray-500">
+                        <div class="h-8 w-8 sm:h-10 sm:w-10">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo"> 
+                        </div>
+                        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                        CSS
+                        </h3>
+                    </div>
+
+                    <span
+                        class="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                    >
+                        4.3
+                    </span>
+                </a>
+            </div>
+
+            <div class="basis-1/4">
+                <a
+                class="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
+                href="#"
+                >
+                    <div class="pt-4 text-gray-500">
+                        <div class="h-8 w-8 sm:h-10 sm:w-10">
+                            <img  src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" alt="JavaScript">
+                        </div>
+                        
+                        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                        Javascript
+                        </h3>
+                    </div>
+
+                    <span
+                        class="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                    >
+                        4.0
+                    </span>
+                </a>
+            </div>
+
+            <div class="basis-1/4">
+                <a
+                    class="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
+                    href="#"
+                    >
+                    <div class="pt-4 text-gray-500">
+                        <div class="h-8 w-8 sm:h-10 sm:w-10">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Python_icon_%28black_and_white%29.svg" alt="Python Logo"> 
+                        </div>
+                        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                        Python
+                        </h3>
+                    </div>
+
+                    <span
+                        class="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                    >
+                        4.3
+                    </span>
+                </a>
+            </div>
+
+            <div class="basis-1/4">
+                <a
+                    class="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
+                    href="#"
+                    >
+                    <div class="pt-4 text-gray-500">
+                        <div class="h-10 w-10 sm:h-10 sm:w-10">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="NodeJs Logo"> 
+                        </div>
+                        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                        NodeJs
+                        </h3>
+                    </div>
+
+                    <span
+                        class="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                    >
+                    4.0    
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+        <div >
+            
+                <p class="text-3xl text-center"></p>
+        </div>
+
+        <div id="projects" class="grid h-screen px-4 bg-white place-content-center">
+            <h1 class="text-2xl text-center font-bold text-gray-900 md:text-3xl">My Projects</h1>
+            <h1 class="tracking-widest text-3xl text-gray-500 uppercase">Proximamente...</h1>
+        </div>
+    </main>
+
+    <footer>
+        <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="Index.html">Julieta Olivera™</a> -  All Rights Reserved.</span>
+            <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+                <a href="mailto:olivera_julieta@outlook.com" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <i class="fa-sharp fa-solid fa-at"></i>
+                    <span class="sr-only">Email</span>
+                </a>
+                <a href="https://www.instagram.com/julaa173/" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span class="sr-only">Instagram page</span>
+                </a>
+                <a href="https://twitter.com/julaa173" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span class="sr-only">Twitter page</span>
+                </a>
+                <a href="https://github.com/julaa173" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="sr-only">GitHub account</span>
+                </a>
+                <a href="https://www.linkedin.com/in/julieta-olivera-782540189/#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
